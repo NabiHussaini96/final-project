@@ -20,5 +20,11 @@ body {
 .card:hover {
   transform: scale(1.05);
 }
+.card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
